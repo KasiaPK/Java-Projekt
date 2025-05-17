@@ -22,3 +22,34 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+
+# === Build output ===
+/out/
+/build/
+**/build/
+
+# === Gradle ===
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === VS Code (jeśli ktoś używa) ===
+.vscode/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Reports, serializacja, dane wynikowe ===
+*.db
+*.sqlite
+*.ser
+*.txt
+/reports/
+
+# === Tymczasowe ===
+*.tmp
+.env
